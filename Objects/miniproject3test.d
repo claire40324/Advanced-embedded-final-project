@@ -1,0 +1,9 @@
+.\objects\miniproject3test.o: MiniProject3Test.c
+.\objects\miniproject3test.o: C:\Keil_v5\ARM\ARM_5.06_b960\Bin\..\include\stdint.h
+.\objects\miniproject3test.o: OS.h
+.\objects\miniproject3test.o: tm4c123gh6pm.h
+.\objects\miniproject3test.o: LCD.h
+.\objects\miniproject3test.o: C:\Keil_v5\ARM\ARM_5.06_b960\Bin\..\include\string.h
+.\objects\miniproject3test.o: UART.h
+.\objects\miniproject3test.o: PLL.h
+.\objects\miniproject3test.o: PORTE.h

@@ -1,0 +1,70 @@
+Dependencies for Project 'p3', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCompiler_5.06u7
+F (.\FIFO.c)(0x6813FBF2)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (FIFO.h)(0x680A7E9E)
+F (.\FIFO.h)(0x680A7E9E)()
+F (.\joystick.c)(0x67A66839)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\joystick.o --omf_browse .\objects\joystick.crf --depend .\objects\joystick.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (joystick.h)(0x679D44AD)
+I (tm4c123gh6pm.h)(0x679D44AD)
+F (.\joystick.h)(0x679D44AD)()
+F (.\LCD.c)(0x68142DFA)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (LCD.h)(0x680EB4CD)
+I (tm4c123gh6pm.h)(0x679D44AD)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\string.h)(0x5E8F47F2)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdio.h)(0x5E8F47F2)
+F (.\LCD.h)(0x680EB4CD)()
+F (.\Main.c)(0x68157486)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdio.h)(0x5E8F47F2)
+I (PLL.h)(0x679D44AD)
+I (LCD.h)(0x680EB4CD)
+I (os.h)(0x6814A980)
+I (joystick.h)(0x679D44AD)
+I (sound.h)(0x680D0482)
+I (bitmaps.h)(0x68148C67)
+I (FIFO.h)(0x680A7E9E)
+I (PORTE.h)(0x679D44AD)
+I (tm4c123gh6pm.h)(0x679D44AD)
+F (.\os.c)(0x68155D41)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\os.o --omf_browse .\objects\os.crf --depend .\objects\os.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (os.h)(0x6814A980)
+I (PLL.h)(0x679D44AD)
+I (tm4c123gh6pm.h)(0x679D44AD)
+I (LCD.h)(0x680EB4CD)
+I (UART.h)(0x67FBE8F8)
+I (joystick.h)(0x679D44AD)
+F (.\os.h)(0x6814A980)()
+F (.\PLL.c)(0x679F9671)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (PLL.h)(0x679D44AD)
+I (tm4c123gh6pm.h)(0x679D44AD)
+F (.\PLL.h)(0x679D44AD)()
+F (.\PORTE.c)(0x67A169AF)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\porte.o --omf_browse .\objects\porte.crf --depend .\objects\porte.d)
+I (PORTE.h)(0x679D44AD)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (tm4c123gh6pm.h)(0x679D44AD)
+F (.\PORTE.h)(0x679D44AD)()
+F (.\README.md)(0x67AEAA96)()
+F (.\startup.s)(0x679D44AD)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123--pd "__UVISION_VERSION SETA 541"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\tm4c123gh6pm.h)(0x679D44AD)()
+F (.\UART.c)(0x6804775B)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (tm4c123gh6pm.h)(0x679D44AD)
+I (UART_FIFO.h)(0x67FBE8F8)
+I (UART.h)(0x67FBE8F8)
+F (.\UART.h)(0x67FBE8F8)()
+F (.\UART_FIFO.c)(0x67FBE8F8)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\uart_fifo.o --omf_browse .\objects\uart_fifo.crf --depend .\objects\uart_fifo.d)
+I (os.h)(0x6814A980)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (UART_FIFO.h)(0x67FBE8F8)
+F (.\UART_FIFO.h)(0x67FBE8F8)()
+F (.\osasm.s)(0x67FBE8F8)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123--pd "__UVISION_VERSION SETA 541"--list .\listings\osasm.lst --xref -o .\objects\osasm.o --depend .\objects\osasm.d)
+F (.\sound.c)(0x680E9F73)(--c99 --gnu -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\arm\ARM\RV31\INC-IC:\arm\ARM\CMSIS\Include-IC:\arm\ARM\INC\TI\TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM-o .\objects\sound.o --omf_browse .\objects\sound.crf --depend .\objects\sound.d)
+I (tm4c123gh6pm.h)(0x679D44AD)
+I (C:\arm\ARM\ARMCompiler_5.06u7\include\stdint.h)(0x5E8F47F2)
+I (sound.h)(0x680D0482)
+I (os.h)(0x6814A980)
+F (.\sound.h)(0x680D0482)()

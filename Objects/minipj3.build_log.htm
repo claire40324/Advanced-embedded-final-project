@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Keshara Weerasinghe, University of Peradeniya, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_5.06_b960\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\wrm9fd\Desktop\mini-project-3-T7\minipj3.uvproj
+Project File Date:  03/30/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_5.06_b960\Bin'
+Build target 'Target_1'
+compiling Main.c...
+Main.c(88): warning:  #177-D: variable "LastTime"  was declared but never referenced
+  	unsigned static long LastTime;  // time at previous ADC sample
+Main.c(89): warning:  #550-D: variable "thisTime"  was set but never used
+  	unsigned long thisTime;         // time at current ADC sample
+Main.c(90): warning:  #177-D: variable "jitter"  was declared but never referenced
+  	long jitter;                    // time between measured and expected, in us
+Main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=7404 RO-data=1436 RW-data=176 ZI-data=9488  
+".\Objects\minipj3.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

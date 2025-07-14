@@ -1,0 +1,24 @@
+.\objects\main.o: Main.c
+<<<<<<< HEAD
+.\objects\main.o: C:\Keil_v5\ARM\ARM_5.06_b960\Bin\..\include\stdint.h
+.\objects\main.o: OS.h
+.\objects\main.o: tm4c123gh6pm.h
+.\objects\main.o: LCD.h
+.\objects\main.o: C:\Keil_v5\ARM\ARM_5.06_b960\Bin\..\include\string.h
+.\objects\main.o: UART.h
+.\objects\main.o: FIFO.h
+.\objects\main.o: joystick.h
+.\objects\main.o: PORTE.h
+=======
+.\objects\main.o: C:\arm\ARM\ARMCompiler_5.06u7\Bin\..\include\stdint.h
+.\objects\main.o: C:\arm\ARM\ARMCompiler_5.06u7\Bin\..\include\stdio.h
+.\objects\main.o: PLL.h
+.\objects\main.o: LCD.h
+.\objects\main.o: os.h
+.\objects\main.o: joystick.h
+.\objects\main.o: sound.h
+.\objects\main.o: bitmaps.h
+.\objects\main.o: FIFO.h
+.\objects\main.o: PORTE.h
+.\objects\main.o: tm4c123gh6pm.h
+>>>>>>> c04fcbc29e5c1dd4d5927ac8e56ea208d393528c
